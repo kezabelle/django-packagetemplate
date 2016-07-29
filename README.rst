@@ -1,4 +1,4 @@
-PACKAGENAME
+django-PACKAGENAME
 ================================
 
 :author: OWNER

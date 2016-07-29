@@ -46,10 +46,10 @@ KEYWORDS = (
 )
 
 setup(
-    name="PACKAGENAME",
+    name="django-PACKAGENAME",
     version="0.1.0",
     author="OWNER",
-    author_email="python-PACKAGENAME@kerynknight.com",
+    author_email="django-PACKAGENAME@kerynknight.com",
     description=SHORT_DESCRIPTION[0:200],
     long_description=LONG_DESCRIPTION,
     packages=[

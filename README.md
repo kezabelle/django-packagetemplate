@@ -1,3 +1,3 @@
 # Usage
 
-`wget https://github.com/kezabelle/python-packagetemplate/archive/master.zip && unzip master.zip && ./python-packagetemplate-master/setup.sh`
+`wget https://github.com/kezabelle/django-packagetemplate/archive/master.zip && unzip master.zip && ./django-packagetemplate-master/setup.sh`
