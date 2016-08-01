@@ -16,6 +16,7 @@ DATABASES = {
 
 INSTALLED_APPS = [
     'django.contrib.sites',
+    'django.contrib.sessions',
     'django.contrib.contenttypes',
     'django.contrib.staticfiles',
     'django.contrib.auth',
