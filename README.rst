@@ -4,6 +4,20 @@ django-PACKAGENAME
 :author: OWNER
 :version: 0.1.0
 
+.. |travis_stable| image:: https://travis-ci.org/kezabelle/django-PACKAGENAME.svg?branch=0.1.0
+  :target: https://travis-ci.org/kezabelle/django-PACKAGENAME
+
+.. |travis_master| image:: https://travis-ci.org/kezabelle/django-PACKAGENAME.svg?branch=master
+  :target: https://travis-ci.org/kezabelle/django-PACKAGENAME
+
+==============  ======
+Release         Status
+==============  ======
+stable (0.1.0)  |travis_stable|
+master          |travis_master|
+==============  ======
+
+
 
 The license
 -----------
