@@ -37,12 +37,13 @@ def make_readme(root_path):
             with open(filepath, mode="r", encoding="utf-8") as f:
                 yield f.read()
 
-
+LICENSE = "BSD License"
 URL = ""
 LONG_DESCRIPTION = "\r\n\r\n----\r\n\r\n".join(make_readme(HERE))
 SHORT_DESCRIPTION = ""
 KEYWORDS = (
-
+    "django",
+    "PACKAGENAME",
 )
 
 setup(
@@ -50,6 +51,8 @@ setup(
     version="0.1.0",
     author="OWNER",
     author_email="django-PACKAGENAME@kerynknight.com",
+    maintainer="OWNER",
+    maintainer_email="django-PACKAGENAME@kerynknight.com",
     description=SHORT_DESCRIPTION[0:200],
     long_description=LONG_DESCRIPTION,
     packages=[
@@ -57,6 +60,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
+        "Django>=1.8",
     ],
     tests_require=[
         "pytest>=2.6",
@@ -67,12 +71,12 @@ setup(
     cmdclass={"test": PyTest},
     zip_safe=False,
     keywords=" ".join(KEYWORDS),
-    license="BSD License",
+    license=LICENSE,
     url=URL,
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: {}".format(LICENSE),
         "Natural Language :: English",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.7",
@@ -80,5 +84,9 @@ setup(
         "Programming Language :: Python :: 3.3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
+        "Framework :: Django",
+        "Framework :: Django :: 1.10",
+        "Framework :: Django :: 1.8",
+        "Framework :: Django :: 1.9",
     ],
 )
